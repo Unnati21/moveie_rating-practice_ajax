@@ -4,6 +4,7 @@
   "description": "moveie_rating practice_ajax",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon -e js,ejs,css, index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
