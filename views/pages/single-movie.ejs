@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head') %>
+<body>
+    <!--Header-->
+    <main>
+        <h1 id="title"></h1>
+        <img id="poster" src= "" alt="">
+        <div id="genres"></div>
+        <p id="summary"></p>
+        <ul>
+            <li id= "Rating"><strong>Ratings:</strong></li>
+            <li id= "Date"><strong>Release Date:</strong></li>
+           <li id= "Languages"><strong>Spoken Languages: </strong></li>
+        </ul>
+       
+
+    </main>
+    <!--Footer-->
+    <script>const movie_id = <%= movie_id %></script>
+    <script src="/js/singleMovie.js"></script>
+</body>
+</html>
